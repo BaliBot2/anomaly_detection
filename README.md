@@ -4,19 +4,6 @@ Anomaly detection is critical in industrial applications, such as quality contro
 
 ---
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Methodology](#methodology)
-- [Results](#results)
-- [Visualizations](#visualizations)
-- [License](#license)
-
----
-
 ## Overview
 
 This project uses **ResNet-50** as a feature extractor combined with a lightweight autoencoder for anomaly detection. The main idea is to train the autoencoder to reconstruct normal data (defect-free textures). Anomalous textures result in higher reconstruction errors, which are used as the basis for detection.
@@ -108,18 +95,22 @@ These metrics demonstrate the effectiveness of the model in distinguishing norma
 ## Visualizations
 
 ### 1. Distribution of Anomaly Scores
-![Anomaly Score Distribution](images/Distribution_of_Anomaly_Scores.png)
+![Anomaly Score Distribution](Output/Distribution_of_Anomaly_Scores.png)
 *Figure: Distribution of anomaly scores for normal (OK) and anomalous (NOK) images.*
 
 ### 2. Heatmap Visualizations
-![Heatmap Visualization](images/Heatmap_Visualization.png)
+![Heatmap Visualization](Output/Heatmap_Visualization.png)
 *Figure: Sample reconstructions with corresponding error heatmaps for normal and anomalous images.*
 
 ### 3. ROC Curve
-![ROC Curve](images/ROC-AUC.png)
+![ROC Curve](Output/ROC-AUC.png)
 *Figure: Receiver Operating Characteristic (ROC) curve, with an AUC of 1.000.*
 
 ### 4. Confusion Matrix
-![Confusion Matrix](images/Confusion_Matrix.png)
+![Confusion Matrix](Output/Confusion_Matrix.png)
 *Figure: Confusion matrix summarizing model performance.*
+
+### 5. Anomaly Score Distribution by Defect Type
+![Defect Distribution](Output/Defect_Distribution.png)
+*Figure: Anomaly score distribution categorized by defect type.*
 
