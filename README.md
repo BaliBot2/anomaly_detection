@@ -27,7 +27,7 @@ This project uses **ResNet-50** as a feature extractor combined with a lightweig
    cd anomaly_detection
    ```
 
-2. Install the required dependencies:
+2. Install the required dependencies(Ideally in a venv):
    ```bash
    pip install -r requirements.txt
    ```
