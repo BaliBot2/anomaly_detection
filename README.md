@@ -1,6 +1,6 @@
 # Anomaly Detection using ResNet-50 and AutoEncoders
 
-Anomaly detection is critical in industrial applications, such as quality control in manufacturing, where identifying defects or irregularities in products is essential. This project leverages pre-trained CNN features (ResNet-50) and a simple autoencoder architecture to detect anomalies in textured surfaces, using the Leather dataset.
+Anomaly detection is critical in industrial applications, such as quality control in manufacturing, where identifying defects or irregularities in products is essential. This project leverages pre-trained CNN features (ResNet-50) and a simple autoencoder architecture to detect anomalies in textured surfaces, using the MVTec Anomaly Detection dataset.
 
 ---
 
