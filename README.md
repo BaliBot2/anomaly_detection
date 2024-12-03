@@ -95,22 +95,22 @@ These metrics demonstrate the effectiveness of the model in distinguishing norma
 ## Visualizations
 
 ### 1. Distribution of Anomaly Scores
-![Anomaly Score Distribution](Output/Distribution_of_Anomaly_Scores.png)
+![Anomaly Score Distribution](Outputs/Distribution_of_Anomaly_Scores.png)
 *Figure: Distribution of anomaly scores for normal (OK) and anomalous (NOK) images.*
 
 ### 2. Heatmap Visualizations
-![Heatmap Visualization](Output/Heatmap_Visualization.png)
+![Heatmap Visualization](Outputs/Heatmap_Visualization.png)
 *Figure: Sample reconstructions with corresponding error heatmaps for normal and anomalous images.*
 
 ### 3. ROC Curve
-![ROC Curve](Output/ROC-AUC.png)
+![ROC Curve](Outputs/ROC-AUC.png)
 *Figure: Receiver Operating Characteristic (ROC) curve, with an AUC of 1.000.*
 
 ### 4. Confusion Matrix
-![Confusion Matrix](Output/Confusion_Matrix.png)
+![Confusion Matrix](Outputs/Confusion_Matrix.png)
 *Figure: Confusion matrix summarizing model performance.*
 
 ### 5. Anomaly Score Distribution by Defect Type
-![Defect Distribution](Output/Defect_Distribution.png)
+![Defect Distribution](Outputs/Defect_Distribution.png)
 *Figure: Anomaly score distribution categorized by defect type.*
 
